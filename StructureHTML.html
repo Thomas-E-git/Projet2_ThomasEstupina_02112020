@@ -2,11 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<script src="https://kit.fontawesome.com/574b1ef8aa.js" crossorigin="anonymous"></script> <!-- lien du kit font awesome -->
 		<title>Reservia-Planifier vos vacances</title>
 		<link rel="icon" type="image/png" href="images/logo/ReserviaR.png">
 	</head>
+
 	<body>
 		<div id="bloc"> <!-- bloc page -->
+
 			<header>
 				<img src="images/logo/Reservia@3x.png" alt="logo Reservia">
 				<nav>
@@ -22,9 +25,9 @@
 
 			<div id="recherche et filtres">
 				<div id="recherche">
-					<img id="localisation" src="images/icone/map-marker-alt-solid.svg" alt="géolocalisation">
 					<form method="post" action="traitement.php">
 						<p>
+							<i class="fas fa-map-marker-alt"></i>
 							<label for="ville"></label><input type="text" name="ville" value="Marseille, France">
 							<input type="submit" value="Rechercher">
 						</p>
