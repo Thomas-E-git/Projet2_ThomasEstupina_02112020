@@ -37,6 +37,13 @@ h1
 	font-size: 1.3em;
 }
 
+h2
+{
+	font-family: Raleway-Extrabold, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
 #bloc
 {
 	width: 95%;
@@ -149,4 +156,86 @@ header p
 	color: black;
 }
 
+#filtres
+{
+	height: 42px;
+	width: 70%;
+	margin-top: 25px;
+	margin-left: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+}
 
+#filtres figure
+{
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	justify-content: space-between;
+	height: 42px;
+	padding: 0 20px 0 0px;
+	flex-wrap: nowrap;
+	margin-right: 0px;
+	border: solid;
+	border-color: #F2F2F2;
+	border-radius: 25px;
+}
+
+#filtres figure i
+{
+	background-color: #DEEBFF;
+	border-radius: 25px;
+	margin-left: 0px;
+	width: 42px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.illu
+{
+	color: #0065FC;
+}
+
+#filtres figcaption
+{
+	padding-left: 15px;
+}
+
+#filtres a
+{
+	text-decoration: none;
+	color: black;
+}
+#filtres a:hover
+{
+	color: #0065FC;
+	font-size: 1.1em;
+}
+
+#Information
+{
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+
+#Information i
+{
+	color: #0065FC;
+	border: solid;
+	border-radius: 50px;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 0.9em;
+}
+
+#Information figcaption
+{
+	padding-left: 15px;
+}
