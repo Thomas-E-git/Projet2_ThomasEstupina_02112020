@@ -100,3 +100,53 @@ header p
 	margin-top: 0px;
 }
 
+#recherche form
+{
+	width: 500px;
+	height: 45px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+#recherche a
+{
+	width: 50px;
+	background-color: #F2F2F2;
+	text-align: center;
+	padding-top: 12px;
+	border-radius: 15px 0px 0px 15px;
+	text-decoration: none;
+	
+}
+
+.bouton
+{
+	width: 150px;
+	background-color: #0065FC;
+	border-radius: 0 15px 15px 0;
+	color: white;
+	font-family: Raleway-Extrabold, Arial, sans-serif;
+	border: none;
+	font-size: 1em;
+}
+
+.form
+{
+	width: 200px;
+	border: solid;
+	border-color: #F2F2F2;
+	font-family: Raleway-Extrabold, Arial, sans-serif;
+	font-size: 1em;
+	padding-left: 15px;
+	
+}
+
+.local
+{
+	font-size: 1.1em;
+	color: black;
+}
+
+
