@@ -294,7 +294,7 @@ header p
 	padding-left: 40px;
 	padding-bottom: 20px;
 	padding-top: 0px;
-	margin-top: 0px; 
+	margin-top: 0px;
 }
 
 #global a
@@ -372,9 +372,8 @@ aside
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin: 15px 0 8px 15px;
+	margin: 12px 0 8px 12px;
 	line-height: 20px;
-
 }
 
 #hebergement strong
@@ -398,4 +397,142 @@ aside
 {
 	font-size: 0.9em;
 	color: #B6B2B1;
+}
+
+#activités
+{
+	margin-top: 55px;
+}
+
+#activités h1
+{
+	margin-bottom: 20px;
+}
+
+#photos
+{
+	display:flex;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+#bloc_photo_1
+{
+	display: flex;
+	padding: 0px 0px 0px 0px;
+}
+
+#ph1 img
+{
+	object-fit: cover;
+	width: 316px;
+	height: 380px;
+}
+
+#ph2 img
+{
+	object-fit: cover;
+	width: 316px;
+	height: 168px;	
+}
+
+#ph3 img
+{
+	object-fit: cover;
+	width: 316px;
+	height: 108px;	
+}
+
+#bloc_photo_2
+{
+	display: flex;
+}
+
+#ph4 img
+{
+	object-fit: cover;
+	width: 316px;
+	height: 380px;	
+}
+
+#ph5 img
+{
+	object-fit: cover;
+	width: 316px;
+	height: 138px;	
+}
+
+#ph6 img
+{
+	object-fit: cover;
+	width: 316px;
+	height: 138px;	
+}
+
+#ph2_3
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#ph5_6
+{
+display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#photos figure
+{
+	margin: 0 54px 0 0;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 2px 2px 20px grey;
+}
+
+#photos img
+{
+	border-radius: 25px 25px 0 0;
+}
+
+#photos figcaption 
+{
+	font-family: Raleway-Extrabold, Arial, sans-serif;
+	padding: 15px 0 15px 15px;
+}
+
+#photos figcaption strong
+{
+font-family: Raleway-Extrabold, Arial, sans-serif;
+}
+
+footer
+{
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 60px;
+	background-color: #F2F2F2;
+	padding: 30px 50px 30px 40px;
+}
+footer div
+{
+	margin-right: 300px;
+	line-height: 30px;
+}
+
+footer ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+footer li a
+{
+	text-decoration: none;
+	color: black;
 }
