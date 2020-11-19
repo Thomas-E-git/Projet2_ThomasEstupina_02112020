@@ -57,6 +57,25 @@ h2
 	align-items: flex-end;
 }
 
+#nav_ins
+{
+	display: flex;
+	align-items: center;
+}
+
+#nav_ins p
+{
+	margin-top: 12px;
+}
+
+#nav_ins p a 
+{
+	font-family: Raleway-ExtraBold, Arial, sans-serif;
+	text-decoration: none;
+	color: #0065FC;
+	font-size: 1.2em;
+}
+
 nav ul
 {
 	list-style-type: none;
@@ -163,11 +182,15 @@ header p
 	margin-top: 25px;
 	margin-left: 5px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	text-decoration: none;
 }
 
+#fil
+{
+	display: flex;
+}
 #filtres figure
 {
 	display: flex;
@@ -404,70 +427,11 @@ aside
 	margin-top: 55px;
 }
 
-#activités h1
-{
-	margin-bottom: 20px;
-}
-
 #photos
 {
 	display:flex;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	width: 100%;
-}
-
-#bloc_photo_1
-{
-	display: flex;
-	padding: 0px 0px 0px 0px;
-}
-
-#ph1 img
-{
-	object-fit: cover;
-	width: 316px;
-	height: 380px;
-}
-
-#ph2 img
-{
-	object-fit: cover;
-	width: 316px;
-	height: 168px;	
-}
-
-#ph3 img
-{
-	object-fit: cover;
-	width: 316px;
-	height: 108px;	
-}
-
-#bloc_photo_2
-{
-	display: flex;
-}
-
-#ph4 img
-{
-	object-fit: cover;
-	width: 316px;
-	height: 380px;	
-}
-
-#ph5 img
-{
-	object-fit: cover;
-	width: 316px;
-	height: 138px;	
-}
-
-#ph6 img
-{
-	object-fit: cover;
-	width: 316px;
-	height: 138px;	
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 #ph2_3
@@ -479,21 +443,95 @@ aside
 
 #ph5_6
 {
-display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
+#photos div
+{
+	width: 22%;
+	height: 450px;
+	padding: 0 0 0 0;
+	margin: 40px 0 0 0;
+	min-width: 300px;
+}
+
 #photos figure
 {
-	margin: 0 54px 0 0;
-	background-color: white;
 	border-radius: 25px;
 	box-shadow: 2px 2px 20px grey;
+	margin: 0 0 0 0;
 }
 
 #photos img
 {
+	object-fit: cover;
+}
+
+#ph1 figure
+{
+	height: 100%;
+}
+
+#ph1 img
+{
+	height: 88%;
+}
+
+#ph2
+{
+	height: 55%;
+}
+
+#ph2 img
+{
+	height: 78%;
+}
+
+#ph3 
+{
+	height: 35%;
+}
+
+#ph3 img
+{
+	height: 66%;
+}
+
+#ph4 figure
+{
+	height: 100%;
+}
+
+#ph4 img
+{
+	height: 88%;
+}
+
+#ph5 
+{
+	height: 45%;
+}
+
+#ph5 img
+{
+	height: 74%;
+}
+
+#ph6 
+{
+	height: 45%;
+}
+
+#ph6 img
+{
+	height: 74%;
+}
+
+#photos img
+{
+	width: 100%;
 	border-radius: 25px 25px 0 0;
 }
 
@@ -536,3 +574,189 @@ footer li a
 	text-decoration: none;
 	color: black;
 }
+
+/* Media queries */
+
+@media all and (max-device-width: 480px)
+{
+	
+	#bloc
+	{
+		width: 100%;
+		font-size: 250%;
+	}
+
+	#nav_ins
+	{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+	}
+
+	#filtres
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		height: 400px;
+		width: 100%;
+	}
+
+	#fil
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-content: flex-start;
+		flex-wrap: wrap;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	#hebergement
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#hebergement figure 
+	{
+		height: 500px;
+		border-radius: 40px;
+		border-width: 8px;
+	}
+
+	#hebergement figure img
+	{
+		width: 100%;
+		height: 300px;
+		border-radius: 40px 40px 0 0;
+	}
+
+	#hebergement figcaption
+	{
+		height: 200px;
+		line-height: 60px;
+	}
+
+	#global
+	{
+		width: 100%;
+		background-color: white;
+	}
+
+	#global h2 a
+	{
+		font-family: Raleway-ExtraBold, Arial, sans-serif;
+	}
+
+	#global h2
+	{
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	#choix
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#populaires
+	{
+		width: 100%;
+		border-radius: 0;
+	}
+
+	#populaires figure
+	{
+		height: 350px;
+	}
+
+	#pop figure img
+	{
+		object-fit: cover;
+		height: 100%;
+		width: 350px;
+		border-radius: 40px 0 0 40px;
+	}
+
+	#pop figcaption
+	{
+		height: 320px;
+		margin: 20px 40px 0px 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	#activités
+	{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin: auto;
+	}
+
+	#photos
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: 30px 0 0 0;
+		padding-right: 0px;
+		width: 100%;
+	}
+
+	#photos div
+	{
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+
+	#photos img
+	{
+		width: 100%;
+		height: 70%;
+	}
+
+	#photos figure
+	{
+		margin-right: 0px;
+		padding-right: 0px;
+		margin-bottom: 50px;
+		height: 500px;
+	}
+
+	#ph2_3 figure 
+	{
+		height: 450px;
+	}
+
+	#ph5_6 figure 
+	{
+		height: 450px;
+	}
+
+	#photos figcaption
+	{
+		height:60px;
+		padding: 30px 0 15px 30px;
+	}
+
+	footer
+	{
+		flex-direction: column;
+		font-size: 250%;
+	}
+
+	footer ul
+	{
+		line-height: 70px;
+	}
+}
+
+
+
