@@ -134,7 +134,7 @@ header p
 	margin-top: 0px;
 }
 
-#recherche form
+form
 {
 	width: 500px;
 	height: 45px;
@@ -144,7 +144,7 @@ header p
 	align-items: stretch;
 }
 
-#recherche a
+form a
 {
 	width: 50px;
 	background-color: #F2F2F2;
@@ -155,7 +155,7 @@ header p
 	
 }
 
-.bouton
+.bouton1
 {
 	width: 150px;
 	background-color: #0065FC;
@@ -164,6 +164,11 @@ header p
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	border: none;
 	font-size: 1em;
+}
+
+button
+{
+	display: none;
 }
 
 .form
@@ -674,6 +679,68 @@ footer li a
 		left: 50px;
 		top: 20px;
 		width: 250px;
+	}
+
+	.en
+	{
+		width: 92%;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+
+	header h1
+	{
+		width: 92%;
+		margin: auto;
+		margin-top: 30px;
+	}
+
+	form
+	{
+		display: flex;
+		width: 92%;
+		height: 100px;
+		margin: auto;
+		justify-content: space-between;
+		border-radius: 30px;
+		border:solid;
+		border-color: #F2F2F2;
+	}
+
+	.bouton1
+	{
+		display: none;
+	}
+
+	button
+	{
+		display: block;
+		width: 15%;
+		border-radius: 30px;
+		font-size: 1.2em;
+		color: white;
+		background-color: #0065FC;
+		border:none;
+	}
+
+	form a
+	{
+		width: 18%;
+		border-radius: 30px 0 0 30px;
+	}
+
+	.local
+	{
+		font-size: 1.2em;
+		padding: 10px;
+	}
+
+	.form
+	{
+		width: 87%;
+		padding-left: 50px;
+		border:none;
 	}
 
 	#filtres
