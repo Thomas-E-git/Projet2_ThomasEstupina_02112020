@@ -177,19 +177,24 @@ header p
 
 #filtres
 {
-	height: 42px;
-	width: 70%;
+	height: auto;
+	width: 100%;
 	margin-top: 25px;
 	margin-left: 5px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	text-decoration: none;
+	flex-wrap: wrap;
+	align-content: flex-start;
 }
 
 #fil
 {
+	height: auto;
 	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 #filtres figure
 {
@@ -197,40 +202,43 @@ header p
 	flex-direction: row;
 	align-items: stretch;
 	justify-content: space-between;
-	height: 42px;
-	padding: 0 20px 0 0px;
+	height: auto;
 	flex-wrap: nowrap;
 	margin-right: 0px;
 	border: solid;
 	border-color: #F2F2F2;
-	border-radius: 25px;
+	border-radius: 50px;
+	
 }
 
 #filtres figure i
 {
 	background-color: #DEEBFF;
-	border-radius: 25px;
+	border-radius: 50px;
 	margin-left: 0px;
-	width: 42px;
+	max-width: 47px;
+	min-width: 47px;
 	text-align: center;
-	padding-top: 12px;
 }
 
 .illu
 {
 	color: #0065FC;
+	padding-top: 14px;
 }
 
 #filtres figcaption
 {
-	padding-left: 15px;
+	width: 100%;
+	padding: 0 20px 0 20px; 
 }
 
 #filtres a
 {
 	text-decoration: none;
-	color: black;
+	color: black;	
 }
+
 #filtres a:hover
 {
 	color: #0065FC;
@@ -595,12 +603,13 @@ footer li a
 
 	#filtres
 	{
-		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-		height: 400px;
-		width: 100%;
+		height: auto;
+		width: 92%;
+		margin: auto;
+		margin-top: 60px;
 	}
 
 	#fil
@@ -608,10 +617,38 @@ footer li a
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		align-content: flex-start;
 		flex-wrap: wrap;
-		margin-left: 0px;
-		padding-left: 0px;
+	}
+
+	#fil figure
+	{
+		border-radius: 80px;
+		margin-top: auto;
+	}
+
+	#fil figure i
+	{
+		min-width: 112px;
+	}
+
+	.illu
+	{
+		padding-top: 35px;
+	}
+
+	#Information
+	{
+		width: 92%;
+		margin: auto;
+		display: flex;
+		align-items: flex-end;
+		margin-bottom: 50px;
+	}
+
+	#Information i
+	{
+		min-width: 50px;
+		height: 50px;
 	}
 
 	#hebergement
@@ -742,7 +779,7 @@ footer li a
 
 	#photos figcaption
 	{
-		height:60px;
+		height: 30%;
 		padding: 30px 0 15px 30px;
 	}
 
