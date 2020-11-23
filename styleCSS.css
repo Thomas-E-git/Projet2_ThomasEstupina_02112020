@@ -310,8 +310,6 @@ button
 	width: 250px;
 	height: 110px;
 	border-radius: 15px 15px 0 0;
-
-
 }
 
 #choix figure
@@ -409,6 +407,7 @@ aside
 	border-radius: 15px;
 	margin: 0px 40px 40px 40px;
 	box-shadow: 2px 2px 20px grey;
+	min-width: 250px;
 }
 
 #pop figcaption
@@ -475,7 +474,7 @@ aside
 	height: 450px;
 	padding: 0 0 0 0;
 	margin: 40px 0 0 0;
-	min-width: 300px;
+	min-width: 238px;
 }
 
 #photos figure
@@ -937,5 +936,59 @@ footer li a
 	}
 }
 
+
+@media all and (min-device-width: 481px) and (max-width: 1024px)
+{
+
+
+	#hebergement
+	{
+		flex-direction: column-reverse;
+		justify-content: space-between;
+		margin: auto;
+		padding: auto;
+	}
+
+	#pop
+	{
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: auto;
+		margin: auto;
+		width: 100%;
+	}
+
+	#pop figure
+	{
+		margin: auto;
+		width: 30%;
+		margin-bottom: 30px;
+		min-width: 280px;
+	}
+
+	#pop figure a
+	{
+		height: 100%;
+	}
+
+	aside
+	{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	#global
+	{
+		width: 100%;
+	}
+
+	#activités div
+	{
+		min-width: 45%;
+	}
+
+}
 
 
