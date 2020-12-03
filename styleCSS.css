@@ -296,7 +296,7 @@ button {
 	color: black;
 }
 
-.hebergement {
+#hebergement {
 	display: flex;
 	justify-content: space-between;
 }
@@ -309,7 +309,7 @@ aside {
 	width: 32%;
 }
 
-.pop figure img {
+#pop figure img {
 	object-fit: cover;
 	width: 110px;
 	height: 120px;
@@ -336,12 +336,12 @@ aside {
 	font-size: 1.2em;
 }
 
-.pop {
+#pop {
 	display: flex;
 	flex-direction: column;
 }
 
-.pop figure {
+#pop figure {
 	display: flex;
 	background-color: white;
 	border: solid;
@@ -353,7 +353,7 @@ aside {
 	min-width: 250px;
 }
 
-.pop figcaption {
+#pop figcaption {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -361,7 +361,7 @@ aside {
 	line-height: 20px;
 }
 
-.hebergement strong {
+#hebergement strong {
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	font-size: 1em;
 }
@@ -380,7 +380,7 @@ aside {
 	color: #B6B2B1;
 }
 
-.activités {
+#activités {
 	margin-top: 55px;
 }
 
@@ -653,21 +653,21 @@ footer li a {
 		min-width: 50px;
 		height: 50px;
 	}
-	.hebergement {
+	#hebergement {
 		display: flex;
 		flex-direction: column-reverse;
 	}
-	.hebergement figure {
-		height: 500px;
+	#hebergement figure {
+		height: 400px;
 		border-radius: 40px;
 		border-width: 8px;
 	}
-	.hebergement figure img {
+	#hebergement figure img {
 		width: 100%;
 		height: 300px;
 		border-radius: 40px 40px 0 0;
 	}
-	.hebergement figcaption {
+	#hebergement figcaption {
 		height: 200px;
 		line-height: 60px;
 	}
@@ -686,27 +686,27 @@ footer li a {
 		display: flex;
 		flex-direction: column;
 	}
-	.populaires {
+	#populaires {
 		width: 100%;
 		border-radius: 0;
 	}
-	.populaires figure {
+	#populaires figure {
 		height: 350px;
 	}
-	.pop figure img {
+	#pop figure img {
 		object-fit: cover;
 		height: 100%;
 		width: 350px;
 		border-radius: 40px 0 0 40px;
 	}
-	.pop figcaption {
+	#pop figcaption {
 		height: 320px;
 		margin: 20px 40px 0px 40px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
-	.activités {
+	#activités {
 		display: flex;
 		flex-direction: column;
 		width: 90%;
@@ -755,13 +755,13 @@ footer li a {
 }
 
 @media all and (min-device-width: 481px) and (max-width: 1024px) {
-	.hebergement {
+	#hebergement {
 		flex-direction: column-reverse;
 		justify-content: space-between;
 		margin: auto;
 		padding: auto;
 	}
-	.pop {
+	#pop {
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
@@ -770,13 +770,13 @@ footer li a {
 		margin: auto;
 		width: 100%;
 	}
-	.pop figure {
+	#pop figure {
 		margin: auto;
 		width: 30%;
 		margin-bottom: 30px;
 		min-width: 280px;
 	}
-	.pop figure a {
+	#pop figure a {
 		height: 100%;
 	}
 	aside {
@@ -786,7 +786,7 @@ footer li a {
 	.global {
 		width: 100%;
 	}
-	.activités div {
+	#activités div {
 		min-width: 45%;
 	}
 }
