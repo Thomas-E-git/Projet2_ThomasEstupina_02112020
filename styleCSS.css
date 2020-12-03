@@ -1,141 +1,117 @@
-@font-face 
-{
-    font-family: 'Raleway-Regular';
-    src:
-         url('Raleway/Raleway-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url('Raleway/Raleway-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
-@font-face 
-{
-    font-family: 'Raleway-ExtraBold';
-    src:
-         url('Raleway/Raleway-ExtraBold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+@font-face {
+	font-family: 'Raleway-ExtraBold';
+	src: url('Raleway/Raleway-ExtraBold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
 }
 
-@font-face 
-{
-    font-family: 'Raleway-Medium';
-    src:
-         url('Raleway/Raleway-Medium.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+	font-family: 'Raleway-Medium';
+	src: url('Raleway/Raleway-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
-*
-{
+* {
 	font-family: Raleway-Regular, Arial, sans-serif;
 }
 
-h1
-{
+h1 {
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 1.3em;
 }
 
-h2
-{
+h2 {
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 1em;
 }
 
-.bloc
-{
+.bloc {
 	width: 95%;
 	margin: auto;
 }
 
-.logo_nav
-{
+.logo_nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
 }
 
-.nav_ins
-{
+.nav_ins {
 	display: flex;
 	align-items: center;
 }
 
-.nav_ins p
-{
+.nav_ins p {
 	margin-top: 12px;
 }
 
-.nav_ins p a 
-{
+.nav_ins p a {
 	font-family: Raleway-ExtraBold, Arial, sans-serif;
 	text-decoration: none;
 	color: #0065FC;
 	font-size: 1.2em;
 }
 
-nav ul
-{
+nav ul {
 	list-style-type: none;
 	display: flex;
 }
 
-nav li
-{
+nav li {
 	font-family: Raleway-Medium, Arial, sans-serif;
 	margin-right: 30px;
 }
 
-nav a
-{
+nav a {
 	text-decoration: none;
 	color: black;
 	padding: 21px 20px 0px 20px;
 }
 
-nav a:focus
-{
+nav a:focus {
 	border-top: solid;
 	border-color: #0065FC;
 	border-width: 5px;
 	color: #0065FC;
 }
 
-nav a:hover
-{
+nav a:hover {
 	border-top: solid;
 	border-color: #0065FC;
 	border-width: 5px;
 	color: #0065FC;
 }
 
-nav a strong
-{
+nav a strong {
 	color: #0065FC;
 }
 
-.logo_nav img
-{
+.logo_nav img {
 	width: 100px;
 }
 
-header h1
-{
+header h1 {
 	margin-top: 30px;
 	margin-bottom: 5px;
 }
 
-header p
-{
+header p {
 	font-size: 0.9em;
-	font-family: Raleway-Medium,Arial,sans-serif;
+	font-family: Raleway-Medium, Arial, sans-serif;
 	margin-top: 0px;
 }
 
-form
-{
+form {
 	width: 500px;
 	height: 45px;
 	display: flex;
@@ -144,19 +120,16 @@ form
 	align-items: stretch;
 }
 
-form a
-{
+form a {
 	width: 50px;
 	background-color: #F2F2F2;
 	text-align: center;
 	padding-top: 12px;
 	border-radius: 15px 0px 0px 15px;
 	text-decoration: none;
-	
 }
 
-.bouton1
-{
+.bouton1 {
 	width: 150px;
 	background-color: #0065FC;
 	border-radius: 0 15px 15px 0;
@@ -166,30 +139,25 @@ form a
 	font-size: 1em;
 }
 
-button
-{
+button {
 	display: none;
 }
 
-.form
-{
+.form {
 	width: 200px;
 	border: solid;
 	border-color: #F2F2F2;
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	font-size: 1em;
 	padding-left: 15px;
-	
 }
 
-.local
-{
+.local {
 	font-size: 1.1em;
 	color: black;
 }
 
-.filtres
-{
+.filtres {
 	height: auto;
 	width: 100%;
 	margin-top: 25px;
@@ -202,15 +170,14 @@ button
 	align-content: flex-start;
 }
 
-.fil
-{
+.fil {
 	height: auto;
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 }
-.filtres figure
-{
+
+.filtres figure {
 	display: flex;
 	flex-direction: row;
 	align-items: stretch;
@@ -221,11 +188,9 @@ button
 	border: solid;
 	border-color: #F2F2F2;
 	border-radius: 50px;
-	
 }
 
-.filtres figure i
-{
+.filtres figure i {
 	background-color: #DEEBFF;
 	border-radius: 50px;
 	margin-left: 0px;
@@ -234,40 +199,34 @@ button
 	text-align: center;
 }
 
-.illu
-{
+.illu {
 	color: #0065FC;
 	padding-top: 14px;
 }
 
-.filtres figcaption
-{
+.filtres figcaption {
 	width: 100%;
-	padding: 0 20px 0 20px; 
+	padding: 0 20px 0 20px;
 }
 
-.filtres a
-{
+.filtres a {
 	text-decoration: none;
-	color: black;	
+	color: black;
 }
 
-.filtres a:hover
-{
+.filtres a:hover {
 	color: #0065FC;
 	font-size: 1.1em;
 }
 
-.Information
-{
+.Information {
 	display: flex;
 	align-items: center;
 	margin-left: 5px;
 	margin-top: 20px;
 }
 
-.Information i
-{
+.Information i {
 	color: #0065FC;
 	border: solid;
 	border-radius: 50px;
@@ -279,13 +238,11 @@ button
 	font-size: 0.9em;
 }
 
-.Information figcaption
-{
+.Information figcaption {
 	padding-left: 15px;
 }
 
-.global
-{
+.global {
 	display: flex;
 	flex-direction: column;
 	width: 65%;
@@ -293,8 +250,7 @@ button
 	border-radius: 15px;
 }
 
-.choix
-{
+.choix {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -302,8 +258,7 @@ button
 	margin: 5px 40px 0px 40px;
 }
 
-.choix img
-{
+.choix img {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	object-fit: cover;
@@ -312,8 +267,7 @@ button
 	border-radius: 15px 15px 0 0;
 }
 
-.choix figure
-{
+.choix figure {
 	margin: 0px 0px 40px 0px;
 	padding: 0px 0px 0px 0px;
 	border: solid;
@@ -324,35 +278,30 @@ button
 	box-shadow: 2px 2px 20px grey;
 }
 
-.global h1
-{
+.global h1 {
 	padding-left: 40px;
 	padding-top: 25px;
 	padding-bottom: 0px;
 }
 
-.global h2
-{
+.global h2 {
 	padding-left: 40px;
 	padding-bottom: 20px;
 	padding-top: 0px;
 	margin-top: 0px;
 }
 
-.global a
-{
+.global a {
 	text-decoration: none;
 	color: black;
 }
 
-.hebergement
-{
+.hebergement {
 	display: flex;
 	justify-content: space-between;
 }
 
-aside
-{
+aside {
 	display: flex;
 	flex-direction: column;
 	background-color: #F2F2F2;
@@ -360,8 +309,7 @@ aside
 	width: 32%;
 }
 
-.pop figure img
-{
+.pop figure img {
 	object-fit: cover;
 	width: 110px;
 	height: 120px;
@@ -370,8 +318,7 @@ aside
 	vertical-align: middle;
 }
 
-.en-tête
-{
+.en-tête {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -380,25 +327,21 @@ aside
 	margin-bottom: 0px;
 }
 
-.en-tête i
-{
+.en-tête i {
 	margin-right: 40px;
 }
 
-.graph
-{
+.graph {
 	font-weight: bold;
 	font-size: 1.2em;
 }
 
-.pop
-{
+.pop {
 	display: flex;
 	flex-direction: column;
 }
 
-.pop figure
-{
+.pop figure {
 	display: flex;
 	background-color: white;
 	border: solid;
@@ -410,8 +353,7 @@ aside
 	min-width: 250px;
 }
 
-.pop figcaption
-{
+.pop figcaption {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -419,57 +361,48 @@ aside
 	line-height: 20px;
 }
 
-.hebergement strong
-{
+.hebergement strong {
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	font-size: 1em;
 }
 
-.global figcaption
-{
+.global figcaption {
 	padding: 4px 0 4px 15px;
 }
 
-.étoile_bleue
-{
+.étoile_bleue {
 	font-size: 0.9em;
 	color: #0065FC;
 }
 
-.étoile_grise
-{
+.étoile_grise {
 	font-size: 0.9em;
 	color: #B6B2B1;
 }
 
-.activités
-{
+.activités {
 	margin-top: 55px;
 }
 
-.photos
-{
-	display:flex;
+.photos {
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-.ph2_3
-{
+.ph2_3 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.ph5_6
-{
+.ph5_6 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.photos div
-{
+.photos div {
 	width: 22%;
 	height: 450px;
 	padding: 0 0 0 0;
@@ -477,97 +410,79 @@ aside
 	min-width: 238px;
 }
 
-.photos figure
-{
+.photos figure {
 	border-radius: 25px;
 	box-shadow: 2px 2px 20px grey;
 	margin: 0 0 0 0;
 }
 
-.photos img
-{
+.photos img {
 	object-fit: cover;
 }
 
-.ph1 figure
-{
+.ph1 figure {
 	height: 100%;
 }
 
-.ph1 img
-{
+.ph1 img {
 	height: 88%;
 }
 
-.ph2
-{
+.ph2 {
 	height: 55%;
 }
 
-.ph2 img
-{
+.ph2 img {
 	height: 78%;
 }
 
-.ph3 
-{
+.ph3 {
 	height: 35%;
 }
 
-.ph3 img
-{
+.ph3 img {
 	height: 66%;
 }
 
-.ph4 figure
-{
+.ph4 figure {
 	height: 100%;
 }
 
-.ph4 img
-{
+.ph4 img {
 	height: 88%;
 }
 
-.ph5 
-{
+.ph5 {
 	height: 45%;
 }
 
-.ph5 img
-{
+.ph5 img {
 	height: 74%;
 }
 
-.ph6 
-{
+.ph6 {
 	height: 45%;
 }
 
-.ph6 img
-{
+.ph6 img {
 	height: 74%;
 }
 
-.photos img
-{
+.photos img {
 	width: 100%;
 	border-radius: 25px 25px 0 0;
 }
 
-.photos figcaption 
-{
+.photos figcaption {
 	font-family: Raleway-Extrabold, Arial, sans-serif;
 	padding: 15px 0 15px 15px;
 }
 
-.photos figcaption strong
-{
-font-family: Raleway-Extrabold, Arial, sans-serif;
+.photos figcaption strong {
+	font-family: Raleway-Extrabold, Arial, sans-serif;
 }
 
-footer
-{
+footer {
 	position: absolute;
 	left: 0%;
 	right: 0%;
@@ -577,173 +492,132 @@ footer
 	background-color: #F2F2F2;
 	padding: 30px 50px 30px 40px;
 }
-footer div
-{
+
+footer div {
 	margin-right: 300px;
 	line-height: 30px;
 }
 
-footer ul
-{
+footer ul {
 	list-style-type: none;
 	padding: 0;
 }
 
-footer li a
-{
+footer li a {
 	text-decoration: none;
 	color: black;
 }
 
+
 /* Media queries */
 
-@media all and (max-device-width: 480px)
-{
-	
-	.bloc
-	{
+@media all and (max-device-width: 480px) {
+	.bloc {
 		width: 100%;
 		font-size: 250%;
 	}
-
-	.nav_ins
-	{
-		
+	.nav_ins {
 		display: flex;
 		flex-wrap: wrap;
 		flex-direction: column-reverse;
 		align-items: flex-end;
-		width:100%;
+		width: 100%;
 		margin: 0 0 0 0;
 	}
-
-	.logo_nav
-	{
+	.logo_nav {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 100%;
 		margin: 40px 0 0 0;
 	}
-	
-	nav 
-	{	
+	nav {
 		width: 100%;
 		margin-top: 30px;
 	}
-
-	nav ul
-	{
+	nav ul {
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
 		margin: 25px 0 30px 0;
 		padding: 0;
 	}
-
-	nav li
-	{
+	nav li {
 		margin: 0;
 		width: 50%;
 		text-align: center;
 		padding-bottom: 15px;
 		border-bottom: solid;
-		border-color:  #F2F2F2;
+		border-color: #F2F2F2;
 		border-width: 10px;
 	}
-
-	nav li:hover
-	{
+	nav li:hover {
 		border-bottom: solid;
 		border-color: #0065FC;
 		border-width: 10px;
 		color: #0065FC;
 	}
-
-	nav a:hover
-	{
-		border:none;
+	nav a:hover {
+		border: none;
 	}
-
-	.nav_ins p
-	{
+	.nav_ins p {
 		margin-right: 45px;
 		font-family: Raleway-ExtraBold, Arial, sans-serif;
 		font-weight: bold;
 	}
-	
-	.logo_nav img
-	{
+	.logo_nav img {
 		position: absolute;
 		left: 50px;
 		top: 20px;
 		width: 250px;
 	}
-
-	.en
-	{
+	.en {
 		width: 92%;
 		margin: auto;
 		margin-top: 30px;
 		margin-bottom: 60px;
 	}
-
-	header h1
-	{
+	header h1 {
 		width: 92%;
 		margin: auto;
 		margin-top: 30px;
 	}
-
-	form
-	{
+	form {
 		display: flex;
 		width: 92%;
 		height: 100px;
 		margin: auto;
 		justify-content: space-between;
 		border-radius: 30px;
-		border:solid;
+		border: solid;
 		border-color: #F2F2F2;
 	}
-
-	.bouton1
-	{
+	.bouton1 {
 		display: none;
 	}
-
-	button
-	{
+	button {
 		display: block;
 		width: 15%;
 		border-radius: 30px;
 		font-size: 1.2em;
 		color: white;
 		background-color: #0065FC;
-		border:none;
+		border: none;
 	}
-
-	form a
-	{
+	form a {
 		width: 18%;
 		border-radius: 30px 0 0 30px;
 	}
-
-	.local
-	{
+	.local {
 		font-size: 1.2em;
 		padding: 10px;
 	}
-
-	.form
-	{
+	.form {
 		width: 87%;
 		padding-left: 50px;
-		border:none;
+		border: none;
 	}
-
-	.filtres
-	{
+	.filtres {
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
@@ -752,133 +626,93 @@ footer li a
 		margin: auto;
 		margin-top: 60px;
 	}
-
-	.fil
-	{
+	.fil {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
 		flex-wrap: wrap;
 	}
-
-	.fil figure
-	{
+	.fil figure {
 		border-radius: 80px;
 		margin-top: auto;
 	}
-
-	.fil figure i
-	{
+	.fil figure i {
 		min-width: 112px;
 	}
-
-	.illu
-	{
+	.illu {
 		padding-top: 35px;
 	}
-
-	.Information
-	{
+	.Information {
 		width: 92%;
 		margin: auto;
 		display: flex;
 		align-items: flex-end;
 		margin-bottom: 50px;
 	}
-
-	.Information i
-	{
+	.Information i {
 		min-width: 50px;
 		height: 50px;
 	}
-
-	.hebergement
-	{
+	.hebergement {
 		display: flex;
 		flex-direction: column-reverse;
 	}
-
-	.hebergement figure 
-	{
+	.hebergement figure {
 		height: 500px;
 		border-radius: 40px;
 		border-width: 8px;
 	}
-
-	.hebergement figure img
-	{
+	.hebergement figure img {
 		width: 100%;
 		height: 300px;
 		border-radius: 40px 40px 0 0;
 	}
-
-	.hebergement figcaption
-	{
+	.hebergement figcaption {
 		height: 200px;
 		line-height: 60px;
 	}
-
-	.global
-	{
+	.global {
 		width: 100%;
 		background-color: white;
 	}
-
-	.global h2 a
-	{
+	.global h2 a {
 		font-family: Raleway-ExtraBold, Arial, sans-serif;
 	}
-
-	.global h2
-	{
+	.global h2 {
 		margin-top: 30px;
 		margin-bottom: 40px;
 	}
-
-	.choix
-	{
+	.choix {
 		display: flex;
 		flex-direction: column;
 	}
-
-	.populaires
-	{
+	.populaires {
 		width: 100%;
 		border-radius: 0;
 	}
-
-	.populaires figure
-	{
+	.populaires figure {
 		height: 350px;
 	}
-
-	.pop figure img
-	{
+	.pop figure img {
 		object-fit: cover;
 		height: 100%;
 		width: 350px;
 		border-radius: 40px 0 0 40px;
 	}
-
-	.pop figcaption
-	{
+	.pop figcaption {
 		height: 320px;
 		margin: 20px 40px 0px 40px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
-
-	.activités
-	{
+	.activités {
 		display: flex;
 		flex-direction: column;
 		width: 90%;
 		margin: auto;
 	}
-
-	.photos
-	{
+	.photos {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -886,71 +720,48 @@ footer li a
 		padding-right: 0px;
 		width: 100%;
 	}
-
-	.photos div
-	{
+	.photos div {
 		width: 100%;
 		height: auto;
 		margin: 0;
 	}
-
-	.photos img
-	{
+	.photos img {
 		width: 100%;
 		height: 70%;
 	}
-
-	.photos figure
-	{
+	.photos figure {
 		margin-right: 0px;
 		padding-right: 0px;
 		margin-bottom: 50px;
 		height: 500px;
 	}
-
-	.ph2_3 figure 
-	{
+	.ph2_3 figure {
 		height: 450px;
 	}
-
-	.ph5_6 figure 
-	{
+	.ph5_6 figure {
 		height: 450px;
 	}
-
-	.photos figcaption
-	{
+	.photos figcaption {
 		height: 30%;
 		padding: 30px 0 15px 30px;
 	}
-
-	footer
-	{
+	footer {
 		flex-direction: column;
 		font-size: 250%;
 	}
-
-	footer ul
-	{
+	footer ul {
 		line-height: 70px;
 	}
 }
 
-
-@media all and (min-device-width: 481px) and (max-width: 1024px)
-{
-
-
-	.hebergement
-	{
+@media all and (min-device-width: 481px) and (max-width: 1024px) {
+	.hebergement {
 		flex-direction: column-reverse;
 		justify-content: space-between;
 		margin: auto;
 		padding: auto;
 	}
-
-	.pop
-	{
+	.pop {
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
@@ -959,36 +770,23 @@ footer li a
 		margin: auto;
 		width: 100%;
 	}
-
-	.pop figure
-	{
+	.pop figure {
 		margin: auto;
 		width: 30%;
 		margin-bottom: 30px;
 		min-width: 280px;
 	}
-
-	.pop figure a
-	{
+	.pop figure a {
 		height: 100%;
 	}
-
-	aside
-	{
+	aside {
 		width: 100%;
 		margin-bottom: 40px;
 	}
-
-	.global
-	{
+	.global {
 		width: 100%;
 	}
-
-	.activités div
-	{
+	.activités div {
 		min-width: 45%;
 	}
-
 }
-
-
