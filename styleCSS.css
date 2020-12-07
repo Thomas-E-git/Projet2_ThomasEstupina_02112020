@@ -242,7 +242,7 @@ button {
 	padding-left: 15px;
 }
 
-.global {
+#global {
 	display: flex;
 	flex-direction: column;
 	width: 65%;
@@ -250,7 +250,7 @@ button {
 	border-radius: 15px;
 }
 
-.choix {
+#choix {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -258,7 +258,7 @@ button {
 	margin: 5px 40px 0px 40px;
 }
 
-.choix img {
+#choix img {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	object-fit: cover;
@@ -267,7 +267,7 @@ button {
 	border-radius: 15px 15px 0 0;
 }
 
-.choix figure {
+#choix figure {
 	margin: 0px 0px 40px 0px;
 	padding: 0px 0px 0px 0px;
 	border: solid;
@@ -278,20 +278,20 @@ button {
 	box-shadow: 2px 2px 20px grey;
 }
 
-.global h1 {
+#global h1 {
 	padding-left: 40px;
 	padding-top: 25px;
 	padding-bottom: 0px;
 }
 
-.global h2 {
+#global h2 {
 	padding-left: 40px;
 	padding-bottom: 20px;
 	padding-top: 0px;
 	margin-top: 0px;
 }
 
-.global a {
+#global a {
 	text-decoration: none;
 	color: black;
 }
@@ -671,18 +671,18 @@ footer li a {
 		height: 200px;
 		line-height: 60px;
 	}
-	.global {
+	#global {
 		width: 100%;
 		background-color: white;
 	}
-	.global h2 a {
+	#global h2 a {
 		font-family: Raleway-ExtraBold, Arial, sans-serif;
 	}
-	.global h2 {
+	#global h2 {
 		margin-top: 30px;
 		margin-bottom: 40px;
 	}
-	.choix {
+	#choix {
 		display: flex;
 		flex-direction: column;
 	}
@@ -783,7 +783,7 @@ footer li a {
 		width: 100%;
 		margin-bottom: 40px;
 	}
-	.global {
+	#global {
 		width: 100%;
 	}
 	#activités div {
