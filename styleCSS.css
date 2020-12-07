@@ -366,7 +366,7 @@ aside {
 	font-size: 1em;
 }
 
-.global figcaption {
+#global figcaption {
 	padding: 4px 0 4px 15px;
 }
 
@@ -667,7 +667,7 @@ footer li a {
 		height: 300px;
 		border-radius: 40px 40px 0 0;
 	}
-	#hebergement figcaption {
+	#pop figcaption {
 		height: 200px;
 		line-height: 60px;
 	}
@@ -685,6 +685,15 @@ footer li a {
 	#choix {
 		display: flex;
 		flex-direction: column;
+	}
+	#choix figure{
+		height: 450px;
+	}
+	#choix img{
+		height: 50%;
+	}
+	#choix figcaption{
+		height: 50%;
 	}
 	#populaires {
 		width: 100%;
@@ -788,5 +797,8 @@ footer li a {
 	}
 	#activités div {
 		min-width: 45%;
+	}
+	#choix figure {
+		height: 180px;
 	}
 }
